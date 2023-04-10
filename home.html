@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- this is the title that goes in the browser tab name  -->
+  <title>Words and facts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Dosis:wght@200&family=Roboto+Flex:wght@300&family=Rubik+Dirt&family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+
+  <!-- Link to CSS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./style1.css">
+
+</head>
+<body onload="NextQuestion(0)">
+  <main>
+  
+      <!-- creating a modal for when quiz ends -->
+      <div class="modal-container" id="score-modal">
+
+          <div class="modal-content-container">
+
+              <h1>Well played!</h1>
+
+              <div class="grade-details">
+                  <p>Wrong Answers: <span id="wrong-answers"></span></p>
+                  <p>Right Answers: <span id="right-answers"></span></p>
+                  <p>Your Grade: <span id="grade-percentage"></span>%</p>
+                  <p ><span id="remarks"></span></p>
+              </div>
+
+              <div>
+                  <button onclick="closeScoreModal()"><a href="index.html">Follow me to uncover more! &#128073</a></button>
+              </div>
+
+          </div>
+      </div>
+<!-- end of modal of quiz details-->
+
+      <div class="game-quiz-container">
+        <h1>How much do you know about social media?</h1>
+        <p>Our journey starts with few just a few questions...</p>
+          <div class="game-details-container">
+            <h1>Your score is <span id="player-score"></span> out of 4</h1>
+            <h1> Question <span id="question-number"></span> of 4</h1>
+          </div>
+
+          <div class="game-question-container">
+              <h1 id="display-question"></h1>
+          </div>
+
+          <div class="game-options-container">
+
+             <div class="modal-container" id="option-modal">
+
+                  <div class="modal-content-container">
+                       <h1>Please Pick An Option</h1>
+
+                       <div class="modal-button-container">
+                          <button onclick="closeOptionModal()">Continue</button>
+                      </div>
+
+                  </div>
+
+             </div>
+
+              <span>
+                  <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                  <label for="option-one" class="option" id="option-one-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                  <label for="option-two" class="option" id="option-two-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                  <label for="option-three" class="option" id="option-three-label"></label>
+              </span>
+
+
+              <span>
+                  <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                  <label for="option-four" class="option" id="option-four-label"></label>
+              </span>
+
+
+          </div>
+
+          <div class="next-button-container">
+              <button onclick="handleNextQuestion()">Next Question</button>
+          </div>
+
+      </div>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+
+  <div class="fullpage">
+
+    
+   
+   </div>
+</body>
+
+</html>
