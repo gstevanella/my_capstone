@@ -1,0 +1,5 @@
+# my_capstone
+Capstone Project
+
+The objective of this digital capstone is to provide the viewer with an exploratory experience designed to untangle some the ramifications of owning and using a social media account. Through the help of a journal that assumes the form of a timeline, this digital capstone illustrates how some of the technologies that power fashionable and successful ways of capturing and sharing personal moments online have hidden roots in environmental issues, communities’ exploitation, political and regulatory decisions, data surveillance practices, and psychological and emotional conditions, especially in adolescents. 
+Parallelly, the project draws the viewer’s attention to some often purposedly unacknowledged facts that originate from the consequences of social media usage such as incentives to consumerism, increase of disparity between groups, and, more broadly speaking, cultural and social backlashes that stem from technological habits that are now entrenched in the fabric of our society.
