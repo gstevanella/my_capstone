@@ -3,18 +3,18 @@ async function init () {
   
   await sleep(1000)
   node.innerText = ""
-  await node.type('A simple #hashtag _ ')
+  await node.type('..digital ')
   
   while (true) {
-    await node.type(' Against')
+    await node.type(' against')
     await sleep(2000)
-    await node.delete(' Against')
+    await node.delete(' against')
     await node.type(' the')
     await sleep(2000)
     await node.delete(' the')
-    await node.type(' Digital')
+    await node.type('...digital')
     await sleep(2000)
-    await node.delete(' Digital')
+    await node.delete('...digital')
     await sleep(20000)
   }
 

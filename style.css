@@ -10,7 +10,7 @@
   }
 
 :root.dark {
-  --bg-color: #8f7b97ae;
+  --bg-color: #e1306b3f;;
 
   }
 body {
@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-family: 'Cabin Sketch';
-  color: #C13584;
+  color:#E1306C;
   font-size: 40px;
   line-height: 40px;
 }
@@ -38,13 +38,13 @@ h3 {
 p { font-family: 'Roboto Flex', sans-serif;
   padding: none;
   font-size: 12px;
-  color: #C13584;
+  color: #E1306C;
   text-decoration: none;
 }
 a {
 font-family: 'Roboto Flex', sans-serif;
   letter-spacing: 0.4px;
-  color: #C13584;
+  color: #E1306C;
   background-color:#ffdb80c7;
   text-decoration: none;
 }
@@ -74,13 +74,15 @@ a:hover {
   column-gap: 1em;
 }
 
-.filter-container {
+.subtitle-container {
   position: absolute;
   top: 560px;
+
 }
 .subtitle {
 position: absolute;
 top: 560px;
+
 }
 
 .button-container {
@@ -167,13 +169,7 @@ option {
   color: grey;
 }
 
-#info-source {
-  position: sticky;
-  bottom: 10px;
-  font-family: 'Dosis';
-  font-size: 20px;
-  color: grey;
-}
+
 
 #chart-explanation {
   padding: 15px 15px;
@@ -215,7 +211,7 @@ button {
   
   font-family: 'Dosis';
   font-size: 15px;
-  background-color:#C13584 ;
+  background-color:#E1306C;
   color: #fcb045;
   padding: 5px;
   border-radius:50px;
@@ -234,7 +230,7 @@ button {
   border: 1px solid black;
   border-radius: 10px;
   z-index: 10;
-  background-color:#c13584cd;
+  background-color:#E1306C;
   width: 500px;
   max-width: 80%;
 }
@@ -282,7 +278,7 @@ width: 99%;
   left: 0;
   right:0;
   bottom:0;
-  background-color: rgba(128, 128, 128, 0.953);
+  background-color: rgba(128, 128, 128, 0.98);
   pointer-events: none;
 }
 
@@ -574,3 +570,27 @@ animation: leanLeft 4s infinite;
 .dark .theme-btn.light {
   display: block;
 }
+
+
+/* ________________________change intro______________________________________*/
+
+
+  
+  .intro {
+  display:inline-block;
+  font-family: 'Dosis';
+  background-color:#E1306C;
+  color: white;
+  border-radius:25px;
+  padding:2px 5px;
+  font-size:18px;
+  text-align:center;
+  
+  }
+.content h3{
+  color:#E1306C;
+  font-size:20px;
+  padding-top:5px;
+  }
+  
+ 
