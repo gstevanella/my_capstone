@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- this is the title that goes in the browser tab name  -->
+  <title>Get in touch</title>
+  <link rel="icon" href="icons/logo.JPG" type="image/logo type">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Dosis:wght@200&family=Roboto+Flex:wght@300&family=Rubik+Dirt&family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+  <!-- Link to CSS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.11/dist/gsap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <form name="myForm" action="action_page.php"
+  onsubmit=" return validateForm()" method="post" required>
+    <input type="text" name="fname" class="input-field" placeholder="Your name">
+    <input type="email" name="femail" class="input-field" placeholder="Your email">
+    <input type="text" class="input-field" placeholder="Subject">
+    <textarea type="text" class="input-field textarea-field" placeholder="Type your message here">Type your message here</textarea>
+  <button type="submit" value="submit">Submit your message</button>
+
+  </form>
+
+
+</body>
+</html>
+
+
+<script src="contact.js"></script>
+</body>
+
+</html>
