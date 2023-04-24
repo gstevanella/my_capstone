@@ -37,9 +37,9 @@ const questions = [
     },
 
     {
-        question: "What's Meta's first quarter tot revenue expectation for 2023?",
+        question: "What's Meta's first quarter revenue expectation for 2023?",
         optionA: "26 million",
-        optionB: "28 billion",
+        optionB: "29 billion",
         optionC: "26-28.5 billion",
         optionD: "30 billion",
         correctOption: "optionC"
